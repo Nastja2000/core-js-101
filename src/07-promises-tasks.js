@@ -1,3 +1,6 @@
+/* eslint-disable indent */
+/* eslint-disable space-in-parens */
+/* eslint-disable linebreak-style */
 /* ************************************************************************************************
  *                                                                                                *
  * Plese read the following tutorial before implementing tasks:                                   *
@@ -28,8 +31,8 @@
  *      .catch((error) => console.log(error.message)) // 'Error: Wrong parameter is passed!
  *                                                    //  Ask her again.';
  */
-function willYouMarryMe(/* isPositiveAnswer */) {
-  throw new Error('Not implemented');
+function willYouMarryMe( /* isPositiveAnswer */ ) {
+    throw new Error('Not implemented');
 }
 
 
@@ -48,8 +51,8 @@ function willYouMarryMe(/* isPositiveAnswer */) {
  *    })
  *
  */
-function processAllPromises(/* array */) {
-  throw new Error('Not implemented');
+function processAllPromises( /* array */ ) {
+    throw new Error('Not implemented');
 }
 
 /**
@@ -71,8 +74,8 @@ function processAllPromises(/* array */) {
  *    })
  *
  */
-function getFastestPromise(/* array */) {
-  throw new Error('Not implemented');
+function getFastestPromise( /* array */ ) {
+    throw new Error('Not implemented');
 }
 
 /**
@@ -92,13 +95,13 @@ function getFastestPromise(/* array */) {
  *    });
  *
  */
-function chainPromises(/* array, action */) {
-  throw new Error('Not implemented');
+function chainPromises( /* array, action */ ) {
+    throw new Error('Not implemented');
 }
 
 module.exports = {
-  willYouMarryMe,
-  processAllPromises,
-  getFastestPromise,
-  chainPromises,
+    willYouMarryMe,
+    processAllPromises,
+    getFastestPromise,
+    chainPromises,
 };
